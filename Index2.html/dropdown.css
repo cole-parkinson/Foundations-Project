@@ -1,0 +1,74 @@
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    border: none;
+    color: green;
+    text-align: center;
+    background-color: transparent;
+  }
+  
+  select:hover {
+    cursor: pointer;
+  }
+  
+  .drop-down-Wrapper-create {
+    width: 90px;
+    height: 35px;
+    overflow: hidden;
+    background: url("https://i.imgur.com/NvpeSY6.png") no-repeat right;
+    display: block;
+    background-color: #43434C;
+    color: transparent;
+    outline: none;
+    padding: 10px;
+    font-size: 0.8em;
+    border: 1px solid #43434C;
+    border-radius: 2px;
+    
+  }
+  
+  .drop-down-Wrapper-create select {
+     background: #43434C;
+     width: 180px;
+     font-size: 16px;
+     padding: 10px;
+     line-height: 1;
+     border-radius: 0;
+     height: 40px;
+     -webkit-appearance: none;
+  }
+
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    border: none;
+    color: white;
+    text-align: center;
+    background-color: transparent;
+  }
+  
+  select:hover {
+    cursor: pointer;
+  }
+  
+  .drop-down-Wrapper-spark {
+    width: 90px;
+    height: 35px;
+    overflow: hidden;
+    background: url("https://i.imgur.com/NvpeSY6.png") no-repeat right;
+    display: block;
+    margin-top: -10px;
+  }
+  
+  .drop-down-Wrapper-spark select {
+     background: transparent;
+     width: 180px;
+     font-size: 16px;
+     padding: 10px;
+     line-height: 1;
+     border-radius: 0;
+     height: 40px;
+     -webkit-appearance: none;
+  }

@@ -1,0 +1,42 @@
+.footer-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #43434C;
+    color: white;
+    margin: 0px;
+    height: 78px;
+    font-size: 1.1em;
+}
+
+.footer-wrapper h5 {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-wrapper :nth-child(1) {
+    border: solid 2px gray;
+    margin-top: -1px;
+    margin-bottom: -1px;
+}
+
+.footer-wrapper :nth-child(2) {
+    border: solid 2px gray;
+    margin-top: -1px;
+    margin-bottom: -1px;
+}
+
+.footer-wrapper :nth-child(3) {
+    border: solid 2px gray;
+    margin-top: -1px;
+    margin-bottom: -1px;
+}
+
+.footer-wrapper :nth-child(4) {
+    border: solid 2px gray;
+    margin-top: -1px;
+    margin-bottom: -1px;
+}
+
+

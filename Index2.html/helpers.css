@@ -1,0 +1,20 @@
+.navigation-wrapper > .links-wrapper > .spark {
+    padding-left: 18px;
+}
+
+.navigation-wrapper > .links-wrapper > .spark a {
+    color: gray;
+}
+
+.right-column > .search-button i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.dropdownWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

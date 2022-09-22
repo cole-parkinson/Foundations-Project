@@ -1,0 +1,57 @@
+.content-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    color: gray;
+}
+
+.content-wrapper > .content p {
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    line-height: 28px;
+    
+}
+
+.content-wrapper > .content h1 {
+    font-weight: 100;
+    color: #C5CAD3;
+}
+    
+
+
+.image-wrapper img {
+    height: 400px;
+    width: 400px;
+    float: right;
+}
+
+.sign-up-button button {
+    background-color: lightgreen;
+    color: #11122b;
+    font-size: 0.8em;
+    padding: 10px 25px;
+    border: 1px solid lightgreen ;
+    border-radius: 2px;
+    outline: none;
+    font-weight: 600;
+    font-size: 1.4em;
+}
+
+.learn-more-button button {
+    background-color: black;
+    color: white;
+    font-size: 0.8em;
+    padding: 10px 25px;
+    border: 1px solid black ;
+    border-radius: 2px;
+    outline: none;
+    font-weight: 600;
+    font-size: 1.4em;
+}
+
+.button-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
